@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Smokum:regular);
+
+.logo{
+  letter-spacing: -1px;
+}
+.link{
+  border: 2px solid orange;
+}
+.link.active{
+  border: 2px solid black;
+}
+
+tr, td, th{
+  text-align: center !important;
+  padding: 10px;
+}
+
+th{
+  border: 1px solid black;
+  text-align: center !important;
+}
+tbody tr td{
+  border: 1px solid black;
+  
+}
+
+label{
+  display: flex;
+  flex-direction: column;
+}
+
+form{
+  display: flex;
+  gap: 20px !important;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+input, select{
+  width: 160px;
+  padding: 5px 10px !important;
+  margin-top: 10px !important;
+  border-radius: 10px;
+}
